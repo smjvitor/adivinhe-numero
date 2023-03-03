@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ADIVINHE O NÚMERO!</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>ADIVINHE O NÚMERO ALEATÓRIO!</h1>
+      <p>
+        Adivinhe o número entre 0 e 9999! Você tem 15 tentativas!
+      </p>
+      <form>
+        <label for="chute">Informe o número</label>
+        <input type="number" id="chute" min="0" max="1000" />
+        <button type="button" id="enviar">ENVIAR</button>
+      </form>
+      <div id="resultado"></div>
+      <div id="tentativas"></div>
+      <div id="numeros-tentados"></div>
+      <button type="button" id="reiniciar">Reiniciar</button>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
+
